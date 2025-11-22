@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [project]
 name = "psr-deploy-keys-for-protected-branches"
-version = "0.0.1"
+version = "1.0.0"
 description = "A repository for illustrating how to bypass deploy key restrictions on protected branches for PSR projects."
 readme = "README.md"
 license = "MIT"
