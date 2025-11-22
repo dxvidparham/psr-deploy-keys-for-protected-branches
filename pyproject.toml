@@ -19,7 +19,7 @@ classifiers = [
 dependencies = ["python-semantic-release (>=10.5.2,<11.0.0)"]
 
 [tool.poetry]
-package-mode = false
+package-mode = true
 
 
 [tool.semantic_release]
