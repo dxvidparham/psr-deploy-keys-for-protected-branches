@@ -2,6 +2,8 @@
 
 This repository serves as a proof-of-concept and reference implementation for configuring **Python Semantic Release (PSR)** to work with **GitHub Protected Branches** using **Deploy Keys**.
 
+It uses **Poetry** for dependency management and project configuration.
+
 ## The Problem
 
 When using Python Semantic Release in a GitHub Actions workflow on a protected branch (e.g., `main`), the default `GITHUB_TOKEN` often lacks the permissions to push commits (version bumps) and tags directly to the branch if "Restrict pushes to matching branches" is enabled.

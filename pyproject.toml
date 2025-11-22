@@ -18,8 +18,12 @@ classifiers = [
 ]
 dependencies = ["python-semantic-release (>=10.5.2,<11.0.0)"]
 
+urls.Repository = "https://github.com/dxvidparham/psr-deploy-keys-for-protected-branches/"
+
 [tool.poetry]
-package-mode = true
+packages = [
+  { include = "psr_deploy_keys_for_protected_branches" },
+]
 
 
 [tool.semantic_release]
